@@ -1,3 +1,28 @@
+## New stuff:
+
+Getting set up:
+
+```
+# install dependencies:
+# linux (note: not tested yet)
+sudo apt-get install arp-scan redis
+
+# mac
+brew install arp-scan redis
+
+# Allow arp-scan to run via sudo without a pw (warning: may be a security hole!)
+  1. Run `sudo visudo`
+  2. Add this line the the end of the file: `ALL ALL=(root) NOPASSWD: /usr/local/bin/arp-scan`
+    * Note this may be different on linux
+
+# install server:
+npm install
+npm run build
+npm run prod
+```
+
+
+
 # Rumblr - API
 
 Rumblr - entrance music for your office Sonos.
