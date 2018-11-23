@@ -31,7 +31,10 @@ npm run prod
 * Install Node: (from https://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/ )
   * `curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -`
   * `sudo apt install -y nodejs`
-
+* Install and run the server
+  * `npm install`
+  * `npm run build`
+  * `ETHERNET_INTERFACE=wlan0 npm run prod`
 
 # Rumblr - API
 
