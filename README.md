@@ -38,6 +38,10 @@ npm run prod
 
 # Rumblr - API
 
+This project was originally based off the CBRumblrAPI project here: https://github.com/ComboStudio/CBRumblrAPI
+
+The projects have diverged significantly though, and I don't think much, if any, of the CBRumblrAPI code is actually being used. For posterity, below is the CBRumblrAPI README:
+
 Rumblr - entrance music for your office Sonos.
 
 ## Welcome
