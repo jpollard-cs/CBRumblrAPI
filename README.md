@@ -21,7 +21,20 @@ npm run build
 npm run prod
 ```
 
+# Raspberry Pi (Raspbian):
 
+* Install https://www.raspberrypi.org/downloads/raspbian/ on the Pi
+* Install Redis
+  * See https://habilisbest.com/install-redis-on-your-raspberrypi
+  * Note you'll need tcl to run `make test`: `sudo apt-get install tcl`
+* Install apt-get dependencies: `sudo apt-get -y install arp-scan git`
+* Install Node: (from https://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/ )
+  * `curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -`
+  * `sudo apt install -y nodejs`
+* Install and run the server
+  * `npm install`
+  * `npm run build`
+  * `ETHERNET_INTERFACE=wlan0 npm run prod`
 
 # Rumblr - API
 
